@@ -1,0 +1,93 @@
+*{	margin:0;  padding:0;}
+body{
+	line-height:25px;
+	font-family:tahoma;
+	direction:rtl;
+}
+
+
+
+.link{
+text-decoration:none;
+color:#3351AF;
+}
+div#firstdiv{
+	width:100%;
+	height:20%;
+	background-color:#C8D9E8;
+	
+}
+p#firstp{
+	background-color:#C8D9E8;
+	color:#3351AF;
+	
+	
+}
+p#secondp{
+	color:#0D2677;
+	font-size:15px;
+}
+div#badane{
+	background-color:#9BDBF3;
+}
+div#badane1{
+	background-color:#A1C8FD;
+    width:50%; 
+	height:100%;
+	margin:auto; 
+	padding:10px;
+	
+	border-radius:6%;
+}
+#form{
+	
+	width:100%;
+	height:100%;
+	
+	
+} 
+#form>div>div{
+    float: right;
+    height: 65%;
+    line-height: 35px;
+    text-align: center;
+   
+}
+#form>div>div:nth-child(1){
+	width:20%;
+	
+}
+#form>div>div:nth-child(2){
+	width:30%;
+	margin:0 10px;
+}
+#form>div>div:nth-child(3){
+	width:30%;
+	
+}
+#specialdiv{
+	width:60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

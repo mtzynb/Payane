@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head> 
+   <title> ثبت نام در سایت </title>
+   <link rel="stylesheet" href="cssfile.css" />
+   <meta charset="utf-8" />
+   <meta name="author" content="Zeynab Mohammadtabar" /> 
+   <script src="jsfile.js" > </script>
+</head>
+<body>
+    
+           <p  id="firstp">
+                        <a href="index.html" class="link">خانه</a> &nbsp &nbsp | &nbsp &nbsp 
+                        <a href="signin.html" class="link" > ورود</a> &nbsp &nbsp | &nbsp &nbsp
+                        <a href="galery.html" class="link"> گالری </a>
+             </p>
+			 <div id="firstdiv" align="center"> 
+			     <a href="http://payaneh.ir" target="_blank"> <img src="pz.png" width="35%" height="30%" alt="آرم پایانه" title="payaneh.ir" /> </a> 
+				 <p id="secondp"> <b> درگاه خرید اینترنتی بلیت اتوبوس و قطار پایانه </b><br/> </p>
+			</div>	 
+
+ 
+ 
+       <p style="padding:7px 135px; border:1px solid #1048E7;"> <b> پایانه </b> سریعترین راه خرید بلیط اتوبوس و قطار مسافرتی است. خرید بلیط ها تنها برای کاربران عضو این سامانه و با کلیه کارت های شبکه شتاب امکان پذیر است.</p>
+ 
+<div id="badane" >  <br /><br />
+     <div  id="badane1" >   <h4> &nbsp;&nbsp;&nbsp;&nbsp;عضویت در سایت: </h4> <br />
+<form name="myform" method="post" action="form.aspx" id="form"  onsubmit="return validate()">
+<div >
+    <div > نام:  <span style="color:red;" > *</span> </div>
+	<div> <input type="text" id="name" placeholder="زینب" /> </div>
+	<div  id="name_td"> &nbsp;&nbsp;&nbsp;&nbsp; </div>
+</div> 
+ 
+<div> 	<div> نام خانوادگی: <span style="color:red;"> *</span> </div>
+		<div><input type="text" id="family" placeholder="محمدتبار" /> </div>
+		 <div id="family_td"> &nbsp;&nbsp;&nbsp; </div>
+
+</div>	 
+<div>
+           <div> کد ملی: <span style="color:red;"> *</span></div>
+		   <div> <input type="text" id="nc" />    </div>
+		   <div id="nc_td"> &nbsp;&nbsp;&nbsp; </div>
+</div>
+<div> 
+	       <div> تلفن همراه: <span style="color:red;"> *</span></div> 
+		   <div> <input type="text" id="number" /> </div>
+			<div id="number_td"> &nbsp; &nbsp;&nbsp;</div>
+</div>
+<div>
+	    <div> نام کاربری:<span style="color:red;"> *</span></div>
+		<div><input type="text" id="user" />  </div>
+		<div id="user_td"> &nbsp;&nbsp;&nbsp; </div>
+</div>
+<div>
+	   <div>رمز عبور:<span style="color:red;"> *</span> </div> 
+	  <div><input type="password" id="pass" />  </div>	 
+	   <div id="pass_td"> &nbsp;&nbsp;&nbsp; </div>
+	 </div>
+<div>
+	     <div> تکرار رمز عبور:<span style="color:red;"> *</span></div> 
+		 <div> <input type="password"  id="pass2" /> </div>
+		 <div id="pass2_td"> &nbsp; &nbsp;&nbsp;</div>
+</div>
+<div>
+         <div> ایمیل:<span style="color:red;"> *</span> </div>
+		 <div><input type="text" id="email"  placeholder="پر کردن این فیلد الزامیست."/></div>
+		 <div id="email_td"> &nbsp;&nbsp;&nbsp;</div>
+</div>
+<div> 
+       <div> تحصیلات: </div>
+	   <div> 
+	        <select name="edu" id="edu">
+			<option value="none" selected > --- </option>
+			<option value="bisavad" > بی سواد </option>
+			<option value="school" > زیر دیپلم </option>
+			<option value="highschool" > دیپلم </option>
+			<option value="highschool2" >فوق دیپلم </option>
+			<option value="BS" > لیسانس</option>
+			<option value="MS" > فوق لیسانس </option>
+			<option value="Phd" > دکترا </option>
+			</select>
+			
+	   </div>
+	   <div> &nbsp;&nbsp;&nbsp;&nbsp; </div>
+</div>
+
+<div> 
+       <div> جنسیت:<span style="color:red;"> *</span> </div>
+	   <div> <input type="radio" name="sex" /> مرد &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	   <input type="radio"  name="sex" /> زن&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+	   <div id="sex_err"> &nbsp;&nbsp;&nbsp;&nbsp; </div>
+</div>	   
+<div> 
+       <div> علاقمند به سفر با:</div>
+	   <div id="specialdiv"> <input type="checkbox" id="interest1" name="interest" /> قطار 
+	   <input type="checkbox" id="interest2" name="interest" /> هواپیما
+	   <input type="checkbox" id="interest3" name="interest" /> کشتی
+	   </div>	 
+       <div>
+	   <input type="checkbox" id="interest1" name="interest" /> ماشین شخصی
+	   <input type="checkbox" id="interest1" name="interest" /> اتوبوس
+	  </div>
+</div>	
+<div> 
+      <div> <small>کدامنیتی(پایتخت ایران؟)<span style="color:red;"> *</span> </small></div>
+	  <div>  <input type="text" id="code" /></div> 
+	  <div id="code_err">&nbsp;&nbsp;&nbsp;&nbsp; </div>
+</div>
+
+  <br/><br/><br/> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	
+	  
+<div align="center">
+      <div> </div>
+     <div><input type="submit" value="ثبت" onsubmit="return validate()" style="border-radius:10%; cursor:pointer; "/>
+	 <input type="reset"  value="پاک کردن همه" style="border-radius:10%; cursor:pointer;"/>  
+	 </div>
+     <div> </div>
+</div>
+	  
+ <br/> <br/> <br/> <br/>
+ 
+ </form></div> <br/><br/><br/></div>
+
+  <div style="background-color:#C2E6F4; " >
+ <p  align="center"> <small><a href="tamas.html" class="link" > تماس با ما  </a>&nbsp | &nbsp <a href="index.html"  class="link" >صفحه اصلی </a>  </p>
+<p align="center" size="1" > کلیه حقوق این سایت برای شرکت
+<b> <font color="red" size="2"> رهـــا </font> </b>
+محفوظ می باشد.
+</small></p><br/>
+ </div>
+ 
+ 
+ 
+ 
+</body>
+</html>
